@@ -1,7 +1,7 @@
 pipeline {
 agent any
 tools {
-nodejs 'node18'
+nodejs 'node16'
 }
 environment {
 APP_NAME = 'ci-cd-lab'
